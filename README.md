@@ -18,6 +18,7 @@ php artisan db:seed --class=ProductsTableSeeder<br>
 php artisan db:seed --class=OpinionTableSeeder<br>
 php artisan db:seed --class=OrderTableSeeder<br>
 php artisan db:seed --class=OrderProductTableSeeder</br>
+php artisan db:seed --class=DiscountTableSeeder</br>
 php artisan serve<br>
 
 <h2>Compte admin :</h2>
