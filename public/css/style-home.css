@@ -1,0 +1,124 @@
+body{
+    padding-top: 0;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    filter: blur(2px);
+}
+
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+h1{
+    color:#499b4a;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 0% 5%;
+    margin: 40px 25% 0;
+    border-radius: 6px;
+    box-shadow: 0 15px 20px -12px #499b4a;
+}
+.quote {
+    padding: 20px 5%;
+}
+.quote span{
+    font-size: 1.2em;
+}
+.quote p{
+    font-style: normal;
+    text-align: justify;
+}
+.btn-green{
+    background: #499b4a;
+    border: 2px solid green;
+    color: white;
+}
+.btn-green:hover{
+    background: #0f5132;
+}
+#myCarousels{
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* CAROUSEL */
+.card img{
+    width: 300px;
+    height: 380px;
+    margin: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color:#babab8;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+@media (max-width: 1198px) {
+    .row-sorties>* {
+        width:33%;
+    }
+}
+
+@media (max-width: 990px) {
+    #button-home a{
+        margin-top: 3%;
+    }
+    .wrapper {
+        margin: 20px 5% 0;
+        margin-bottom: 2em;
+    }
+    #myCarousels{
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 6%;
+    }
+    #a-admin{
+        margin-top: 5%;
+    }
+    .row-sorties>* {
+        width: 50%;
+    }
+}
+
+@media (max-width: 592px) {
+    #carousel-categorie {
+        height: 15rem;
+    }
+    /* DERNIERE SORTIES */
+    .w-100 {
+        width: 100%!important;
+    }
+    .row-sorties>* {
+        width: 50%;
+    }
+    .card img{
+        height: 250px;
+    }
+    .card-body h5{
+        font-size:15px;
+    }
+    .card-body button{
+        font-size:15px;
+        width: 100%;
+    }
+}

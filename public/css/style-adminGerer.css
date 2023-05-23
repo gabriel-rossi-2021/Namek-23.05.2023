@@ -1,0 +1,47 @@
+.row table{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+#my-form-edit-user{
+    margin-top: 5%;
+}
+
+#my-form-edit-user tr{
+    margin-top: 5%;
+}
+#my-form-edit-user td{
+    margin-left: 2%;
+}
+#my-form-edit-user label{
+    font-weight: 500;
+}
+#input{
+    width: 96%;
+    padding: 5px 5px 5px 0;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.cta-btn{
+    background-color: #499b4a;
+    color: white;
+    padding: 5px 5px 5px 0;
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+.update-form{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .row table {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

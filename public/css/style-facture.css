@@ -1,0 +1,59 @@
+.container{
+    border: 3px solid #499b4a;
+    width: 90%;
+    margin:auto;
+    padding:20px; /* ajout de l'espace intérieur */
+}
+.invoice-container {
+    margin: 0 auto; /* centrage de la facture */
+}
+#information{
+    width:100%;
+    height:auto;
+    text-align:center;
+}
+#information tbody{
+    background:#ffff;
+    padding:20px;
+}
+#produit-table{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    text-align:center;
+    padding:10px;
+    background:#fafafa
+}
+#produit-table th{
+    color:#6c757d;
+    font-size: 20px;
+}
+#produit-table td{
+    background-color:#fff;
+    font-size:12px;
+    color:#262626;
+}
+#table-info-produit{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    margin-top:0px;
+    padding:20px;
+    font-size:12px;
+    border: 1px solid #ebebeb;
+    border-top:0px;
+}
+#table-info-produit tr{
+    font-weight: bold;
+    padding: 5px;
+    text-align:center
+}
+#table-info-prix{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    padding:20px;
+    font-size:12px;
+    border: 1px solid #ebebeb;
+    border-top:0
+}
